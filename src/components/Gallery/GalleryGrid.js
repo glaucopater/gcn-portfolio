@@ -38,6 +38,8 @@ class GalleryComposition extends Component {
 
   render() {
     const { photos } = this.props
+
+    console.log('GalleryComposition -> render -> photos', photos)
     return (
       <>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 3, 900: 5 }}>

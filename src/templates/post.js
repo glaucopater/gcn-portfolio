@@ -79,13 +79,6 @@ export const query = graphql`
           height
         }
       }
-      body {
-        childMarkdownRemark {
-          html
-          excerpt(pruneLength: 320)
-          timeToRead
-        }
-      }
     }
     allContentfulPost(limit: 1000) {
       edges {

@@ -66,11 +66,6 @@ export const query = graphql`
           height
         }
       }
-      body {
-        childMarkdownRemark {
-          html
-        }
-      }
     }
   }
 `

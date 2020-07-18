@@ -5,7 +5,7 @@ import { slide as Menu } from 'react-burger-menu'
 import Social from '../components/Social'
 
 const Nav = styled.nav`
-  background-color:#16161D;
+  background-color: #16161d;
   width: 100%;
   height: 4rem;
   position: fixed;
@@ -24,16 +24,16 @@ const Title = styled(Link)`
     font-family: 'Alfa Slab One';
   }
   span {
-  /*  font-family: 'FreightSansBold'; */
-  font-size: 1.6rem;
-  color:#999;
+    /*  font-family: 'FreightSansBold'; */
+    font-size: 1.6rem;
+    color: #999;
   }
 `
 
 const Copyright = styled.p`
-    font-size: 0.75rem;
-    padding: 1rem 0;
-    text-align: center;
+  font-size: 0.75rem;
+  padding: 1rem 0;
+  text-align: center;
 `
 
 const Header = styled.header`
@@ -87,7 +87,7 @@ const MenuMobile = styled(Menu)`
   }
   h2 {
     text-transform: uppercase;
-    }
+  }
   a {
     text-decoration: none;
     padding: 0.25rem;
@@ -149,16 +149,14 @@ const Navigation = () => {
               </h2>
             </li>
             <li>
-             <br />
-             <br />
+              <br />
+              <br />
             </li>
             <li>
               <Social />
             </li>
-        </ul>
-        <Copyright>
-          <p>© 1992-2019 Jp Valery</p>
-        </Copyright>
+          </ul>
+          <Copyright>© 1992-2019 Jp Valery</Copyright>
         </MenuMobile>
       </Header>
     </Nav>

@@ -55,13 +55,6 @@ export const query = graphql`
               ...GatsbyContentfulFluid_withWebp
             }
           }
-          body {
-            childMarkdownRemark {
-              html
-              excerpt(pruneLength: 240)
-              timeToRead
-            }
-          }
         }
       }
     }
